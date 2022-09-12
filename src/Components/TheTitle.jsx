@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Styles/TheTitle.css"
 
 function TheTitle() {
   return (
