@@ -1,9 +1,10 @@
 import React from 'react'
 import "./Styles/BeautifulScreen.css"
 
-function BeautifulScreen() {
+function BeautifulScreen({ screenState }) {
+    console.log(screenState)
   return (
-    <div className='BeautifulScreen'>1234567890</div>
+    <div className='BeautifulScreen'><span>{screenState.display}</span><span>{screenState.results}</span></div>
   )
 }
 

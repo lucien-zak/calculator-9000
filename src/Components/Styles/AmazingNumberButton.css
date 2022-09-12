@@ -1,0 +1,26 @@
+.AmazingNumberButton {
+    
+    background-color: aqua;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.AmazingNumberButton button {
+    font-size: 3rem;
+    font-weight: bold;
+    width: 33.33%;
+    border: none;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+/* .AmazingNumberButton button:last-child {
+    font-size: 3rem;
+    font-weight: bold;
+    width: 66.66%;
+    
+} */

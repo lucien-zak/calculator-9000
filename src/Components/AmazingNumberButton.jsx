@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import "./Styles/AmazingNumberButton.css";
 
-function AmazingNumberButton() {
+function AmazingNumberButton({ number, handleNumbers }) {
+
   return (
-    <div>AmazingNumberButton</div>
-  )
+    <button onClick={(e) => {
+        handleNumbers(number)
+    }}>{number}</button>
+  );
 }
 
-export default AmazingNumberButton
+export default AmazingNumberButton;

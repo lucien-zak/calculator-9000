@@ -1,8 +1,9 @@
 import React from 'react'
+import "./Styles/MagnificientEqualButton.css"
 
-function MagnificientEqualButton() {
+function MagnificientEqualButton({handleEqual, screenState}) {
   return (
-    <div>MagnificientEqualButton</div>
+    <button disabled={screenState.operator === "=" ? "disabled" : ""}  onClick={handleEqual} className='EqualButton'>=</button>
   )
 }
 

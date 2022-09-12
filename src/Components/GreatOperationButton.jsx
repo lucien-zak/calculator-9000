@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import "./Styles/GreatOperationButton.css";
 
-function GreatOperationButton() {
+function GreatOperationButton({operator, handleOperators}) {
+
   return (
-    <div>GreatOperationButton</div>
+    <button onClick={()=> {
+        handleOperators(operator)
+    }}>{operator}</button>
   )
 }
 
-export default GreatOperationButton
+export default GreatOperationButton;
