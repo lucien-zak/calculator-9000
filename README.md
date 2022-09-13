@@ -1,6 +1,6 @@
 Bienvenue sur ma super calculatrice.
 
-Le projet est compatible avec "https://github.com/mattrayner/docker-lamp".
+Le projet est compatible avec l'image docker : "https://github.com/mattrayner/docker-lamp". Il permet d'héberger l'application et la bdd. 
 
 - Le dossier /App contient le projet build.
 - Le dossier /mysql contient la bdd. (pour la persistance).
