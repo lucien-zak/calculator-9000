@@ -4,7 +4,7 @@ import "./Styles/BeautifulScreen.css"
 function BeautifulScreen({ screenState }) {
     console.log(screenState)
   return (
-    <div className='BeautifulScreen'><span>{screenState.display}</span><span>{screenState.results}</span></div>
+    <div className='BeautifulScreen'><span>{screenState.results}</span><span>{screenState.display}</span></div>
   )
 }
 
