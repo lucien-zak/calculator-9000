@@ -7,7 +7,8 @@ Le projet est compatible avec l'image docker : "https://github.com/mattrayner/do
 
 Pour le lancer : 
 
-"docker run -i -t -p "80:80" -v ${PWD}/app:/app -v ${PWD}/mysql:/var/lib/mysql mattrayner/lamp:latest"
+<sup> docker run -i -t -p "80:80" -v ${PWD}/app:/app -v ${PWD}/mysql:/var/lib/mysql mattrayner/lamp:latest" </sup>
+
 
 Compatible ARM :) (Pas testé sur X86_64)
 
